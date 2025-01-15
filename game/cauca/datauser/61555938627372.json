@@ -1,0 +1,109 @@
+{
+  "name": "Nguyễn Tiến Đạt",
+  "ID": "61555938627372",
+  "mainROD": "𝖀𝖓𝖐𝖓𝖔𝖜𝖓 𝕿𝖗𝖎𝖉𝖊𝖓𝖙",
+  "GPS": {
+    "locate": "The Crater",
+    "area": "Mushroom Forest"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Cá Thách Đấu",
+      "category": "Legendary",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 2,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 3,
+      "name": "Ampeel",
+      "category": "Rare",
+      "size": 11,
+      "sell": 4050,
+      "image": "https://i.imgur.com/hHyRaNE.jpg"
+    },
+    {
+      "ID": 4,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 5,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 6,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 7,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 8,
+      "name": "Boneshark",
+      "category": "Rare",
+      "size": 8400,
+      "sell": 3770,
+      "image": "https://i.imgur.com/WcZE7hq.png"
+    },
+    {
+      "ID": 9,
+      "name": "Boneshark",
+      "category": "Rare",
+      "size": 8400,
+      "sell": 3770,
+      "image": "https://i.imgur.com/WcZE7hq.png"
+    },
+    {
+      "ID": 10,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    }
+  ],
+  "item": [
+    {
+      "name": "𝖀𝖓𝖐𝖓𝖔𝖜𝖓 𝕿𝖗𝖎𝖉𝖊𝖓𝖙",
+      "price": 1675000,
+      "durability": 59880,
+      "countdown": 5,
+      "countdownData": 1710772439122,
+      "image": "https://i.imgur.com/EDozSgg.jpg"
+    }
+  ],
+  "timeRegister": "15:19:27, 18/3/2024"
+}

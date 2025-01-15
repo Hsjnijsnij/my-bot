@@ -1,0 +1,221 @@
+{
+  "name": "Kim Hajin",
+  "ID": "100090371712584",
+  "mainROD": "𝖀𝖓𝖐𝖓𝖔𝖜𝖓 𝕿𝖗𝖎𝖉𝖊𝖓𝖙",
+  "GPS": {
+    "locate": "Sector Zero",
+    "area": "Crystal Caves"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Cá Thách Đấu",
+      "category": "Legendary",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 2,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 3,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 6,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 9,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 11,
+      "name": "Boneshark",
+      "category": "Rare",
+      "size": 8400,
+      "sell": 3770,
+      "image": "https://i.imgur.com/WcZE7hq.png"
+    },
+    {
+      "ID": 12,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 13,
+      "name": "Reefback Leviathan",
+      "category": "Epic",
+      "size": 6400,
+      "sell": 30240,
+      "image": "https://i.imgur.com/Knd4axq.png"
+    },
+    {
+      "ID": 14,
+      "name": "Boneshark",
+      "category": "Rare",
+      "size": 8400,
+      "sell": 3770,
+      "image": "https://i.imgur.com/WcZE7hq.png"
+    },
+    {
+      "ID": 15,
+      "name": "Ampeel",
+      "category": "Rare",
+      "size": 11,
+      "sell": 4050,
+      "image": "https://i.imgur.com/hHyRaNE.jpg"
+    },
+    {
+      "ID": 16,
+      "name": "Boneshark",
+      "category": "Rare",
+      "size": 8400,
+      "sell": 3770,
+      "image": "https://i.imgur.com/WcZE7hq.png"
+    },
+    {
+      "ID": 19,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 20,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 21,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 22,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 23,
+      "name": "Spadefish",
+      "category": "Common",
+      "size": 30,
+      "sell": 200,
+      "image": "https://i.imgur.com/Xt3mcnE.jpg"
+    },
+    {
+      "ID": 24,
+      "name": "Void Chelicerate",
+      "category": "Legendary",
+      "size": 6500,
+      "sell": 1107080,
+      "image": "https://i.imgur.com/VuLnzT8.png"
+    },
+    {
+      "ID": 25,
+      "name": "Hoopfish",
+      "category": "Common",
+      "size": 27,
+      "sell": 190,
+      "image": "https://i.imgur.com/1I7IeiH.png"
+    },
+    {
+      "ID": 26,
+      "name": "Bladderfish",
+      "category": "Common",
+      "size": 32,
+      "sell": 200,
+      "image": "https://i.imgur.com/W5IegiJ.png"
+    },
+    {
+      "ID": 27,
+      "name": "Boomerang",
+      "category": "Common",
+      "size": 31,
+      "sell": 200,
+      "image": "https://i.imgur.com/dtBM9sP.png"
+    },
+    {
+      "ID": 28,
+      "name": "Boomerang",
+      "category": "Common",
+      "size": 31,
+      "sell": 200,
+      "image": "https://i.imgur.com/dtBM9sP.png"
+    },
+    {
+      "ID": 29,
+      "name": "Noot Fish",
+      "category": "Uncommon",
+      "size": 74,
+      "sell": 740,
+      "image": "https://i.imgur.com/jR73WON.png"
+    },
+    {
+      "ID": 30,
+      "name": "Rock Puncher",
+      "category": "Rare",
+      "size": 2,
+      "sell": 1890,
+      "image": "https://i.imgur.com/5f8kjk5.png"
+    },
+    {
+      "ID": 31,
+      "name": "Red Feather Fish",
+      "category": "Uncommon",
+      "size": 35,
+      "sell": 440,
+      "image": "https://i.imgur.com/6eugLip.png"
+    }
+  ],
+  "item": [
+    {
+      "name": "𝖀𝖓𝖐𝖓𝖔𝖜𝖓 𝕿𝖗𝖎𝖉𝖊𝖓𝖙",
+      "price": 1675000,
+      "durability": 59450,
+      "countdown": 5,
+      "countdownData": 1714138608391,
+      "image": "https://i.imgur.com/EDozSgg.jpg"
+    },
+    {
+      "name": "D.U Core Harpoon",
+      "price": 17500,
+      "durability": 450,
+      "countdown": 60,
+      "countdownData": null,
+      "image": "https://i.imgur.com/vWRvdAP.png"
+    }
+  ],
+  "timeRegister": "10:04:19, 22/4/2024"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Long Lỏ",
+    "ID": "100069091017023",
+    "mainROD": null,
+    "GPS": {
+        "locate": null,
+        "area": null
+    },
+    "fishBag": [
+        {
+            "ID": 0,
+            "name": "Cá Thách Đấu",
+            "category": "Legendary",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "item": [],
+    "timeRegister": "15:20:32, 18/3/2024"
+}

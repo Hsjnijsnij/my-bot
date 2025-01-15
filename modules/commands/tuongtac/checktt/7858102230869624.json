@@ -1,0 +1,65 @@
+{
+    "total": [
+        {
+            "id": "61557083373491",
+            "count": 0
+        },
+        {
+            "id": "61557954933756",
+            "count": 0
+        },
+        {
+            "id": "61558387105931",
+            "count": 0
+        },
+        {
+            "id": "100038740121428",
+            "count": 13
+        }
+    ],
+    "week": [
+        {
+            "id": "61557083373491",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        },
+        {
+            "id": "61557954933756",
+            "count": 0,
+            "name": "Lê Thị Kiều Ánh"
+        },
+        {
+            "id": "61558387105931",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        },
+        {
+            "id": "100038740121428",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        }
+    ],
+    "day": [
+        {
+            "id": "61557083373491",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        },
+        {
+            "id": "61557954933756",
+            "count": 0,
+            "name": "Lê Thị Kiều Ánh"
+        },
+        {
+            "id": "61558387105931",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        },
+        {
+            "id": "100038740121428",
+            "count": 0,
+            "name": "Nguyễn Quốc Duy"
+        }
+    ],
+    "time": 0
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Tiến Sĩ Adzer",
+    "ID": "100090710830189",
+    "mainROD": null,
+    "GPS": {
+        "locate": null,
+        "area": null
+    },
+    "fishBag": [
+        {
+            "ID": 0,
+            "name": "Cá Thách Đấu",
+            "category": "Legendary",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "item": [],
+    "timeRegister": "11:07:53, 22/4/2024"
+}

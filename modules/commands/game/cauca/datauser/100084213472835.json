@@ -1,0 +1,20 @@
+{
+    "name": "Minh Anh",
+    "ID": "100084213472835",
+    "mainROD": null,
+    "GPS": {
+        "locate": null,
+        "area": null
+    },
+    "fishBag": [
+        {
+            "ID": 0,
+            "name": "Cá Thách Đấu",
+            "category": "Legendary",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "item": [],
+    "timeRegister": "21:54:05, 1/5/2024"
+}
