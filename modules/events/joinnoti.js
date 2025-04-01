@@ -16,7 +16,7 @@ module.exports.run = async function({ api, event,Threads }) {
     const checkban = data.banOut || []
   if  (checkban.includes(checkban[0])) return
   else if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-    api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "BotMilo <3" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
+    api.changeNickname(`『 ${global.config.PREFIX} 』 ⪼ ${(!global.config.BOTNAME) ? "BotMilo <3" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage(`𝐊𝐄̂́𝐓 𝐍𝐎̂́𝐈 𝐓𝐇𝐀̀𝐍𝐇 𝐂𝐎̂𝐍𝐆\n *☄️  ★ * ° .✩° 🪐｡ ✨ . ☆ •°.🌎⠀\n ${global.config.PREFIX}help để xem toàn bộ lệnh của bot <3\n*☄️  ★ * ° .✩° 🪐｡ ✨ . ☆ •°.🌎⠀\n 𝘼𝙙𝙢𝙞𝙣 𝘽𝙤𝙩: 𝑄𝑢𝑎𝑛𝑔 𝐻𝑢𝑦\n 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/RisPTG/`, threadID);
   }
   else {
