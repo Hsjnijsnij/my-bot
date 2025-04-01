@@ -38,7 +38,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
     const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
     const iduser = event.logMessageData.leftParticipantFbId;
     const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
-	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "𝑟𝑜̛̀𝑖" : "𝑏𝑖̣ 𝑞𝑢𝑎̉𝑛 𝑙𝑖́ đ𝑢𝑜̂̉𝑖";
+	const type = (event.author == event.logMessageData.leftParticipantFbId) ? "rời" : "bị quản lý cho out";
 	const path = join(__dirname, "cache", "leaveGif","randomgif");
 	const pathGif = join(path, `${threadID}`);
 	var msg, formPush
@@ -62,14 +62,14 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
     }
     if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-(typeof data.customLeave == "undefined") ? msg = "→ 𝑇𝑎̣𝑚 𝑏𝑖𝑒̣̂𝑡 {name} đã {type} 𝑘ℎ𝑜̉𝑖 𝑛ℎ𝑜́𝑚 !!!\n*☄️  ★ * ° .✩° 🪐｡ ✨ . ☆ •°.🌎⠀\n[🔎]→ 𝑈𝑟𝑙 𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘: m.me/{iduser}\n[🤖]→ 𝐶𝑎̉𝑚 𝑜̛𝑛 𝑐𝑎̣̂𝑢 {name} đ𝑎̃ đ𝑜̂̀𝑛𝑔 ℎ𝑎̀𝑛ℎ 𝑐𝑢̀𝑛𝑔 𝑐ℎ𝑢́𝑛𝑔 𝑡𝑜̂𝑖 𝑡𝑟𝑜𝑛𝑔 𝑡ℎ𝑜̛̀𝑖 𝑔𝑖𝑎𝑛 𝑞𝑢𝑎\n◆━━━━━━━━━━━━━◆\n[❤️‍🔥]→ 𝑇ℎ𝑜̛̀𝑖 𝑔𝑖𝑎𝑛 𝑜𝑢𝑡 𝑛ℎ𝑜́𝑚: 𝑏𝑢𝑜̂̉𝑖 {session} || {time}\n[👉]→ 𝑁𝑔𝑎̀𝑦 𝑟𝑎: {fullYear}" : msg = data.customLeave;
+(typeof data.customLeave == "undefined") ? msg = "→ Tạm biệt {name} đã {type} khỏi nhóm !!!\n*☄️  ★ * ° .✩° 🪐｡ ✨ . ☆ •°.🌎⠀\n[🔎]→ 𝑈𝑟𝑙 𝐹𝑎𝑐𝑒𝑏𝑜𝑜𝑘: m.me/{iduser}\n[🤖]→ 𝐶𝑎̉𝑚 𝑜̛𝑛 𝑐𝑎̣̂𝑢 {name} đ𝑎̃ đ𝑜̂̀𝑛𝑔 ℎ𝑎̀𝑛ℎ 𝑐𝑢̀𝑛𝑔 𝑐ℎ𝑢́𝑛𝑔 𝑡𝑜̂𝑖 𝑡𝑟𝑜𝑛𝑔 𝑡ℎ𝑜̛̀𝑖 𝑔𝑖𝑎𝑛 𝑞𝑢𝑎\n◆━━━━━━━━━━━━━◆\n[❤️‍🔥]→ 𝑇ℎ𝑜̛̀𝑖 𝑔𝑖𝑎𝑛 𝑜𝑢𝑡 𝑛ℎ𝑜́𝑚: 𝑏𝑢𝑜̂̉𝑖 {session} || {time}\n[👉]→ 𝑁𝑔𝑎̀𝑦 𝑟𝑎: {fullYear}" : msg = data.customLeave;
 	msg = msg
     .replace(/\{iduser}/g, iduser)
     .replace(/\{name}/g, name)
     .replace(/\{type}/g, type)
-    .replace(/\{session}/g, hours <= 10 ? "𝑠𝑎́𝑛𝑔" : 
-    hours > 10 && hours <= 12 ? "𝑡𝑟𝑢̛𝑎" :
-    hours > 12 && hours <= 18 ? "𝑐ℎ𝑖𝑒̂̀𝑢" : "𝑡𝑜̂́𝑖")
+    .replace(/\{session}/g, hours <= 10 ? "sáng" : 
+    hours > 10 && hours <= 12 ? "trưa" :
+    hours > 12 && hours <= 18 ? "chiều" : "tối")
     .replace(/\{fullYear}/g, fullYear)
     .replace(/\{time}/g, time);  
 
